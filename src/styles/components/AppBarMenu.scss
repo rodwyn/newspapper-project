@@ -1,0 +1,7 @@
+.app-bar-menu {
+  background: $app-bar-menu-bg;
+  color: $app-bar-menu-color;
+  display: flex;
+  justify-content: space-between;
+  padding: $space-xs $space-md;
+}
