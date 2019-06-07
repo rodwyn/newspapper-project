@@ -3,7 +3,7 @@ import React from 'react';
 class CloseButton extends React.Component {
   render() {
     return (
-      <button>Close Div</button>
+      <button>Close Div </button>
     );
   }
 }
