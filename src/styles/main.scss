@@ -1,6 +1,7 @@
 @import './reset';
 @import './colors';
 @import './variables';
+@import './grid';
 @import './components/AppBarMenu';
 @import './components/MainMasthead.scss';
 @import './components/TrendingTopic.scss';
@@ -10,4 +11,11 @@
 html {
   font-family: $font-family-primary;
   font-size: 100%;
+}
+
+.container-gap,
+.container {
+  margin: 0 auto;
+  max-width: 62rem;
+  width: 100%;
 }
