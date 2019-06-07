@@ -1,0 +1,43 @@
+@font-face {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: $font-weight-light;
+  src: url('../fonts/Neuton-Light.eot');
+  src: url('../fonts/Neuton-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Neuton-Light.woff2') format('woff2'),
+    url('../fonts/Neuton-Light.woff') format('woff'),
+    url('../fonts/Neuton-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: $font-weight-regular;
+  src: url('../fonts/Neuton-Regular.eot');
+  src: url('../fonts/Neuton-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Neuton-Regular.woff2') format('woff2'),
+    url('../fonts/Neuton-Regular.woff') format('woff'),
+    url('../fonts/Neuton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: $font-weight-bold;
+  src: url('../fonts/Neuton-Bold.eot');
+  src: url('../fonts/Neuton-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Neuton-Bold.woff2') format('woff2'),
+    url('../fonts/Neuton-Bold.woff') format('woff'),
+    url('../fonts/Neuton-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-primary;
+  font-style: italic;
+  font-weight: $font-weight-regular;
+  src: url('../fonts/Neuton-Italic.eot');
+  src: url('../fonts/Neuton-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Neuton-Italic.woff2') format('woff2'),
+    url('../fonts/Neuton-Italic.woff') format('woff'),
+    url('../fonts/Neuton-Italic.ttf') format('truetype');
+}
