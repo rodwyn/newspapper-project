@@ -1,13 +1,19 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
-class AppBarLink extends React.Component {
-  render() {
-    return (
-      <li>
-        <a>link</a>
-      </li>
-    );
-  }
-}
+const AppBarLink = ({item}) => {
+  const {
+    label,
+    link
+  } = item;
+
+  return (
+    <li>
+      <a href={ link }>{ label }</a>
+    </li>
+  );
+};
+
+AppBarLink.propTypes = { item: PropTypes.object.isRequired };
 
 export default AppBarLink;

@@ -4,4 +4,16 @@
   display: flex;
   justify-content: space-between;
   padding: $space-xs $space-md;
+
+  li a {
+    color: $app-bar-menu-color;
+    font-size: $font-size-sm;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
