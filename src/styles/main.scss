@@ -2,3 +2,8 @@
 @import './colors';
 @import './variables';
 @import './components/AppBarMenu';
+
+html {
+  font-family: $font-family-primary;
+  font-size: 100%;
+}

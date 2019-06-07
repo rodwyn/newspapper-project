@@ -18,7 +18,7 @@
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
     "number-leading-zero": "always",
-    "number-max-precision": 2,
+    "number-max-precision": 3,
     "number-no-trailing-zeros": true,
     "string-no-newline": true,
     "string-quotes": "single",
