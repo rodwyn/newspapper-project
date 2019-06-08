@@ -1,0 +1,14 @@
+.masthead {
+  padding: $space-xl $space-xxxl;
+
+  .masthead-image {
+    width: 100%;
+  }
+
+  .masthead-info {
+    border-bottom: solid thin $gray-80;
+    display: flex;
+    justify-content: space-between;
+    padding: $space-xs $space-md;
+  }
+}
