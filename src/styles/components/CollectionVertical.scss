@@ -1,0 +1,18 @@
+.collection-vertical {
+  li {
+    padding: $space-md 0;
+    position: relative;
+
+    &:not(:last-of-type) {
+      border-bottom: 1px solid $gray-80;
+    }
+
+    span {
+      display: block;
+    }
+
+    a + span {
+      margin-top: $space-xs;
+    }
+  }
+}
