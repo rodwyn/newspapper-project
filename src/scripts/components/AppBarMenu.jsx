@@ -1,16 +1,19 @@
 import AppBarLink from './AppBarLink.jsx';
+import {Menu} from '../../data/Menu.jsx';
 import React from 'react';
 
-class AppBarMenu extends React.Component {
-  render() {
+const AppBarMenu = () => {
+  const menuItems = Menu.map((item, index) => {
     return (
-      <ul className="app-bar-menu">
-        <AppBarLink />
-        <AppBarLink />
-        <AppBarLink />
-      </ul>
+      <AppBarLink item={ item } key={ index } />
     );
-  }
-}
+  });
+
+  return (
+    <ul className="app-bar-menu">
+      { menuItems }
+    </ul>
+  );
+};
 
 export default AppBarMenu;
