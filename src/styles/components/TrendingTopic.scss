@@ -1,0 +1,18 @@
+.trending-topic {
+  align-items: baseline;
+  display: flex;
+  justify-content: center;
+  padding: $space-xs $space-md;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      background: $trending-topic-background-color;
+      color: $trending-topic-color;
+      margin: $space-xxxs;
+      padding: $space-xxxs $space-xxs;
+    }
+  }
+}

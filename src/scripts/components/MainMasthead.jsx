@@ -3,6 +3,12 @@ import TrendingTopic from './TrendingTopic.jsx';
 
 class MainMastead extends React.Component {
   render() {
+    const options = {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    };
+
     return (
       <section className="masthead">
         <img
@@ -12,7 +18,7 @@ class MainMastead extends React.Component {
         <section className="masthead-info">
           <span>
             <time>
-              {new Date().toDateString()}
+              {new Date().toLocaleDateString('en-EU', options)}
             </time>
           </span>
           <span>
