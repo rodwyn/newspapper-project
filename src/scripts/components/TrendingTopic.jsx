@@ -1,26 +1,24 @@
+import AppBarLink from './AppBarLink.jsx';
 import React from 'react';
+import { Trending } from '../../data/Topics.jsx';
 
-class TrendingTopic extends React.Component {
-  render() {
+const TrendingTopic = () => {
+  const renderTopics = Trending.map((item, index) => {
     return (
-      <section className="trending-topic">
-        <span>
-          Trending Topics:
-        </span>
-        <ul>
-          <li>
-            <a>link</a>
-          </li>
-          <li>
-            <a>link</a>
-          </li>
-          <li>
-            <a>link</a>
-          </li>
-        </ul>
-      </section>
+      <AppBarLink item={ item } key={ index } />
     );
-  }
-}
+  });
+
+  return (
+    <section className="trending-topic">
+      <span>
+        TRENDING TOPICS:
+      </span>
+      <ul>
+        {renderTopics}
+      </ul>
+    </section>
+  );
+};
 
 export default TrendingTopic;

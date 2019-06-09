@@ -2,17 +2,23 @@
   align-items: baseline;
   display: flex;
   justify-content: center;
-  padding: $space-xs $space-md;
+  padding: $space-md;
 
   ul {
     display: flex;
     flex-direction: row;
 
-    li {
+    li a {
       background: $trending-topic-background-color;
-      color: $trending-topic-color;
+      color: $font-color-secondary;
+      font-weight: $font-weight-bold;
       margin: $space-xxxs;
       padding: $space-xxxs $space-xxs;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
