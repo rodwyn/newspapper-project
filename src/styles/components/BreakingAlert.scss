@@ -1,0 +1,9 @@
+.breaking-alert {
+  background: $breaking-alert-bg;
+  color: $breaking-alert-color;
+  display: run-in;
+  padding: $space-xxs 0.1px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+}
