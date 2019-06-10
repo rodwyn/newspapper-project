@@ -5,9 +5,9 @@ import React from 'react';
 class BreakingAlert extends React.Component {
   render() {
     return (
-      <div id="close" className="breaking-alert">
-        <BreakingAlertMessage />
-        <CloseButton />
+      <div className="breaking-alert">
+      <BreakingAlertMessage />
+      <CloseButton />
       </div>
     );
   }

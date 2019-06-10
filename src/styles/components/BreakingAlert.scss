@@ -1,9 +1,9 @@
 .breaking-alert {
-  background-color: $yellow;
-  color: $white;
-  height: auto;
+  background: $breaking-alert-bg;
+  color: $breaking-alert-color;
+  display: run-in;
+  padding: $space-xxs 0.1px;
+  position: relative;
   text-align: center;
   text-decoration: underline;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
 }
