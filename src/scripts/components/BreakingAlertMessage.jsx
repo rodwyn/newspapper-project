@@ -6,4 +6,4 @@ export default class BreakingAlertMessage extends React.Component {
       <h3>This is the warning message.</h3>
     );
   }
-};
+}
