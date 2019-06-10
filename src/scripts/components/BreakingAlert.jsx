@@ -11,4 +11,4 @@ export default class BreakingAlert extends React.Component {
       </div>
     );
   }
-};
+}

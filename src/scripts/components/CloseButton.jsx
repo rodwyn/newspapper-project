@@ -6,4 +6,4 @@ export default class CloseButton extends React.Component {
       <img className="close-button" src="./src/images/close-icon.png" alt="Close Button" />
     );
   }
-};
+}
