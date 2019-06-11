@@ -1,11 +1,11 @@
-import AppBarLink from './AppBarLink.jsx';
+import ListLink from './ListLink.jsx';
 import React from 'react';
 import { Trending } from '../../data/Topics.jsx';
 
 const TrendingTopic = () => {
   const renderTopics = Trending.map((item, index) => {
     return (
-      <AppBarLink item={ item } key={ index } />
+      <ListLink item={ item } key={ index } />
     );
   });
 
