@@ -1,7 +1,7 @@
 import React from 'react';
 import TrendingTopic from './TrendingTopic.jsx';
 
-const MainMastead = () => {
+const MainMasthead = () => {
   const options = {
     day: 'numeric',
     month: 'long',
@@ -29,4 +29,4 @@ const MainMastead = () => {
   );
 };
 
-export default MainMastead;
+export default MainMasthead;
