@@ -1,0 +1,18 @@
+.masthead {
+  background-color: $white;
+  font-size: $font-size-base;
+  margin: 0 $space-xxxl;
+
+  .masthead-image {
+    display: block;
+    margin-left: 0 auto;
+    width: 50%;
+  }
+
+  .masthead-info {
+    border-bottom: solid thin $gray-80;
+    display: flex;
+    justify-content: space-between;
+    padding: $space-xs $space-md;
+  }
+}
