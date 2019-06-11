@@ -1,6 +1,6 @@
 import AppBarMenu from './components/AppBarMenu.jsx';
 import BreakingAlert from './components/BreakingAlert.jsx';
-import MainMashead from './components/MainMasthead.jsx';
+import MainMasthead from './components/MainMasthead.jsx';
 import React from 'react';
 
 class App extends React.Component {
@@ -9,7 +9,7 @@ class App extends React.Component {
       <div>
         <AppBarMenu />
         <BreakingAlert />
-        <MainMashead />
+        <MainMasthead />
         <h1>Holi crayoli</h1>
       </div>
     );
