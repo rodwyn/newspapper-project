@@ -6,9 +6,9 @@ export default class BreakingAlert extends React.Component {
   render() {
     return (
       <div className="breaking-alert">
-      <BreakingAlertMessage />
-      <CloseButton />
+        <BreakingAlertMessage />
+        <CloseButton />
       </div>
     );
   }
-};
+}
