@@ -1,13 +1,31 @@
 @import './reset';
 @import './colors';
 @import './variables';
+@import './grid';
 @import './components/AppBarMenu';
 @import './components/MainMasthead.scss';
 @import './components/TrendingTopic.scss';
 @import './components/BreakingAlert';
 @import './components/CloseButton';
+@import './components/CollectionVertical';
 
 html {
   font-family: $font-family-primary;
   font-size: 100%;
+}
+
+.container-gap,
+.container {
+  margin: 0 auto;
+  max-width: 62rem;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
