@@ -1,0 +1,272 @@
+[class^='icofont-'],
+[class*='icofont-'] {
+  direction: ltr;
+  font-family: $font-familiy-icon;
+  font-feature-settings: 'liga';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: $font-weight-regular;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.icon {
+  border: $gray-60 solid thin;
+  display: inline;
+  padding: $space-xxs;
+}
+
+.icofont-clouds::before {
+  content: '\ee51';
+}
+
+.icofont-celsius::before {
+  content: '\ee50';
+}
+
+.icofont-fahrenheit::before {
+  content: '\ee55';
+}
+
+.icofont-full-sunny::before {
+  content: '\ee58';
+}
+
+.icofont-ui-check::before {
+  content: '\ec4b';
+}
+
+.icofont-ui-clip::before {
+  content: '\ec4d';
+}
+
+.icofont-ui-cart::before {
+  content: '\ec48';
+}
+
+.icofont-ui-clock::before {
+  content: '\ec4e';
+}
+
+.icofont-ui-close::before {
+  content: '\ec4f';
+}
+
+.icofont-ui-love::before {
+  content: '\ec65';
+}
+
+.icofont-ui-message::before {
+  content: '\ec67';
+}
+
+.icofont-ui-messaging::before {
+  content: '\ec68';
+}
+
+.icofont-ui-music::before {
+  content: '\ec6b';
+}
+
+.icofont-ui-play::before {
+  content: '\ec74';
+}
+
+.icofont-ui-rate-blank::before {
+  content: '\ec7a';
+}
+
+.icofont-ui-rating::before {
+  content: '\ec7c';
+}
+
+.icofont-ui-remove::before {
+  content: '\ec7e';
+}
+
+.icofont-ui-user::before {
+  content: '\ec8e';
+}
+
+.icofont-ui-weather::before {
+  content: '\ec95';
+}
+
+.icofont-ui-zoom-in::before {
+  content: '\ec97';
+}
+
+.icofont-ui-zoom-out::before {
+  content: '\ec98';
+}
+
+.icofont-facebook::before {
+  content: '\ed37';
+}
+
+.icofont-google-plus::before {
+  content: '\ed43';
+}
+
+.icofont-google-map::before {
+  content: '\ed42';
+}
+
+.icofont-instagram::before {
+  content: '\ed46';
+}
+
+.icofont-tinder::before {
+  content: '\ed76';
+}
+
+.icofont-twitter::before {
+  content: '\ed7a';
+}
+
+.icofont-youtube::before {
+  content: '\ed8b';
+}
+
+.icofont-address-book::before {
+  content: '\eea1';
+}
+
+.icofont-at::before {
+  content: '\eea6';
+}
+
+.icofont-audio::before {
+  content: '\eea8';
+}
+
+.icofont-book-mark::before {
+  content: '\eec0';
+}
+
+.icofont-camera::before {
+  content: '\eecf';
+}
+
+.icofont-check-alt::before {
+  content: '\eed6';
+}
+
+.icofont-check-circled::before {
+  content: '\eed7';
+}
+
+.icofont-check::before {
+  content: '\eed8';
+}
+
+.icofont-checked::before {
+  content: '\eed9';
+}
+
+.icofont-clip::before {
+  content: '\eedb';
+}
+
+.icofont-clock-time::before {
+  content: '\eedc';
+}
+
+.icofont-close-circled::before {
+  content: '\eedd';
+}
+
+.icofont-close-line::before {
+  content: '\eee1';
+}
+
+.icofont-close::before {
+  content: '\eee4';
+}
+
+.icofont-computer::before {
+  content: '\eeee';
+}
+
+.icofont-exclamation::before {
+  content: '\ef1c';
+}
+
+.icofont-exclamation-tringle::before {
+  content: '\ef1b';
+}
+
+.icofont-eye-alt::before {
+  content: '\ef21';
+}
+
+.icofont-home::before {
+  content: '\ef47';
+}
+
+.icofont-info-circle::before {
+  content: '\ef4e';
+}
+
+.icofont-image::before {
+  content: '\ef4b';
+}
+
+.icofont-lock::before {
+  content: '\ef7a';
+}
+
+.icofont-minus-circle::before {
+  content: '\ef98';
+}
+
+.icofont-minus::before {
+  content: '\ef9a';
+}
+
+.icofont-navigation-menu::before {
+  content: '\efa2';
+}
+
+.icofont-notification::before {
+  content: '\efac';
+}
+
+.icofont-plus-circle::before {
+  content: '\efc0';
+}
+
+.icofont-plus::before {
+  content: '\efc2';
+}
+
+.icofont-question-circle::before {
+  content: '\efca';
+}
+
+.icofont-question::before {
+  content: '\efcc';
+}
+
+.icofont-share::before {
+  content: '\efe5';
+}
+
+.icofont-thumbs-up::before {
+  content: '\f00c';
+}
+
+.icofont-verification-check::before {
+  content: '\f021';
+}
+
+.icofont-warning-alt::before {
+  content: '\f025';
+}
+
+.icofont-world::before {
+  content: '\f02c';
+}
