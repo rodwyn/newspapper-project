@@ -41,3 +41,14 @@
     url('../fonts/Neuton-Italic.woff') format('woff'),
     url('../fonts/Neuton-Italic.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: $font-familiy-icon;
+  font-style: normal;
+  font-weight: $font-weight-regular;
+  src: url('../fonts/icofont.eot');
+  src: url('../fonts/icofont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icofont.woff2') format('woff2'),
+    url('../fonts/icofont.woff') format('woff'),
+    url('../fonts/icofont.ttf') format('truetype');
+}

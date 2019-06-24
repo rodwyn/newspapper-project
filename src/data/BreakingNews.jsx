@@ -1,21 +1,13 @@
 export const BreakingNews = [
   {
-<<<<<<< HEAD
     content: `Private, all-girls Westover School to open independent
               investigation into past sexual assault allegations`,
-=======
-    content: 'Private, all-girls Westover School to open independent investigation into past sexual assault allegations',
->>>>>>> feb90c27357c6b4aae8f126e0efeaf55c35ce4fd
     link: '#',
     timestamp: '4m'
   },
   {
-<<<<<<< HEAD
     content: `Wandering seal back in Long Island Sound after swimming 100 miles
               up Connecticut River`,
-=======
-    content: 'Wandering seal back in Long Island Sound after swimming 100 miles up Connecticut River',
->>>>>>> feb90c27357c6b4aae8f126e0efeaf55c35ce4fd
     link: '#',
     timestamp: '32m'
   },
