@@ -1,9 +1,11 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
-export default class BreakingAlertMessage extends React.Component {
-  render() {
-    return (
-      <h3>This is the warning message.</h3>
-    );
-  }
-}
+const BreakingAlertMessage = () => {
+  var message = "This is a warning message tester";
+  return (
+    <h3>{ message }</h3>
+  );
+};
+
+export default BreakingAlertMessage;
