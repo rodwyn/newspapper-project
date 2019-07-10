@@ -12,7 +12,7 @@ export const BreakingNews = [
     timestamp: '32m'
   },
   {
-    content: 'Inmate accused of altering prison records behind bars',
+    content: 'Inmate accused of altering prison records behind bars ccvbcvbcvb',
     link: '#',
     timestamp: '1h'
   },
